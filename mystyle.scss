@@ -72,9 +72,11 @@ footer {
   list-style-type: none;
   li{
     margin: 10px;
+    text-align: center;
   }
-  a{
+  a:hover, a:link{
     text-decoration: none;
+
   }
 }
 .red{
