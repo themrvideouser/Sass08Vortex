@@ -9,13 +9,16 @@ ol {
 /*divstyle*/
 body {
   font-family: Helvetica, sans serif;
-  font-size: 20px;
   color: black;
   background-color: yellow;
+  font-size: 20px;
   padding: 30px; }
 
 a {
   color: black; }
+
+h1 {
+  font-size: 26px; }
 
 h1, h3 {
   margin: 0px;
@@ -24,31 +27,61 @@ h1, h3 {
 nav {
   margin-top: 20px;
   margin-left: 10px;
-  width: 251px;
   text-align: justify;
+  min-width: 270px;
   /*border: 1px solid white;*/
   padding: 10px;
-  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.28);
-  float: left; }
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.28); }
   nav span {
     font-size: 8pt; }
+  nav img {
+    max-width: 100%; }
 
 iframe {
   border: 0px;
-  display: inline; }
+  display: inline;
+  min-width: 700px; }
 
-.twitter {
+aside {
   margin-left: 10px;
-  width: 251px;
+  width: 250px;
   /*border: 1px solid white;*/
   padding: 10px;
   background-color: #1DA1F2; }
+  aside img {
+    float: left;
+    padding: 0px 10px 10px 0px;
+    max-width: 100%; }
 
-.twitter img {
-  float: left;
-  padding: 0px 10px 10px 0px; }
+footer {
+  position: fixed;
+  background-color: #CCFFFF;
+  bottom: 0;
+  width: 100%;
+  margin-right: 10px; }
 
-nav, .twitter, article, footer {
-  float: left; }
+#main {
+  margin-bottom: 50px; }
+
+#links ul {
+  list-style-type: none;
+  text-align: center; }
+  #links ul li {
+    padding: 10px;
+    background-color: blue; }
+    #links ul li a:hover, #links ul li a:link {
+      text-decoration: none; }
+
+.red {
+  color: red; }
+
+.blue {
+  color: blue; }
+
+.purple {
+  color: purple; }
+
+.yellow {
+  background-color: #FFFFCC; }
 
 /*# sourceMappingURL=mystyle.css.map */

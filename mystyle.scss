@@ -70,14 +70,15 @@ footer {
 }
 #links ul{
   list-style-type: none;
+  text-align: center;
   li{
-    margin: 10px;
-    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    a:hover,  a:link{
+      text-decoration: none;
+    }
   }
-  a:hover, a:link{
-    text-decoration: none;
 
-  }
 }
 .red{
   color: red;
