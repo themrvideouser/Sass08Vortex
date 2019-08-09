@@ -1,3 +1,7 @@
 # .idea
 
 /.idea/*
+
+# .css.map files
+
+*.css.map
