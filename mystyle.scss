@@ -41,6 +41,7 @@ nav{
 iframe{
   border: 0px;
   display: inline;
+  min-width: 700px;
 }
 
 aside{
@@ -58,11 +59,33 @@ aside{
 
 footer {
   position: fixed;
-  background-color: red;
+  background-color: #CCFFFF;
   bottom: 0;
   width: 100%;
+  margin-right: 10px;
 }
 
 #main {
   margin-bottom: 50px;
+}
+#links ul{
+  list-style-type: none;
+  li{
+    margin: 10px;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.purple{
+  color: purple;
+}
+.yellow{
+  background-color: #FFFFCC;
 }
